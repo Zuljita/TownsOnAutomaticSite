@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Towns on Automatic mark">
+  <!-- Gear ring: the shared "on Automatic" cog, brass like the family mark -->
+  <g stroke="#ffd800" fill="none">
+    <circle cx="32" cy="32" r="23.5" stroke-width="4.6"/>
+    <g stroke-width="6.4">
+      <line x1="32" y1="8.5" x2="32" y2="2.5"/>
+      <line x1="32" y1="55.5" x2="32" y2="61.5"/>
+      <line x1="8.5" y1="32" x2="2.5" y2="32"/>
+      <line x1="55.5" y1="32" x2="61.5" y2="32"/>
+      <line x1="15.38" y1="15.38" x2="11.14" y2="11.14"/>
+      <line x1="48.62" y1="48.62" x2="52.86" y2="52.86"/>
+      <line x1="15.38" y1="48.62" x2="11.14" y2="52.86"/>
+      <line x1="48.62" y1="15.38" x2="52.86" y2="11.14"/>
+    </g>
+  </g>
+  <!-- Two rooftops with a lit window: the settlement, where the others hold a door or a hex -->
+  <g fill="none" stroke="#d68438" stroke-width="2.8" stroke-linejoin="round">
+    <path d="M14 43 L14 31 L23 23.5 L32 31 L32 43 Z"/>
+    <path d="M32 43 L32 28 L41 20 L50 28 L50 43 Z"/>
+  </g>
+  <rect x="37.8" y="32.5" width="6.4" height="10.5" fill="#ffd800"/>
+  <rect x="20" y="34" width="6" height="9" fill="#d68438"/>
+</svg>

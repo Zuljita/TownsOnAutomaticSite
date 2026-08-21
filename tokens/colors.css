@@ -1,0 +1,114 @@
+/* ============================================================
+   Towns on Automatic — Color Tokens
+   Same stone-dark workshop chrome and brass machine voice as the
+   family. The primary is hearth — lamplit-window orange for the
+   settlement lens — beside DOA's ember, HOA's canopy and COA's
+   lapis.
+   ============================================================ */
+
+:root {
+  /* ---- Brand: Hearth (settlement orange — primary) ---- */
+  --hearth-50:  #fdf1e7;
+  --hearth-100: #f8dcc4;
+  --hearth-200: #f0bd92;
+  --hearth-300: #e29a5e;
+  --hearth-400: #d68438;
+  --hearth-500: #c06d28;   /* primary brand */
+  --hearth-600: #9c5820;
+  --hearth-700: #784419;
+  --hearth-800: #523012;
+  --hearth-900: #2f1c0a;
+
+  /* ---- Brand: Brass (shared family secondary — the gears) ---- */
+  --brass-50:  #fff8db;
+  --brass-100: #ffeea3;
+  --brass-200: #ffe066;
+  --brass-300: #ffd800;   /* family gold */
+  --brass-400: #e8be1a;
+  --brass-500: #c79a16;
+  --brass-600: #9c7611;
+  --brass-700: #74570d;
+  --brass-800: #4d3a09;
+  --brass-900: #2e2305;
+
+  /* ---- Family scales: Ember (DOA), Canopy (HOA), Lapis (COA) ---- */
+  --ember-300: #e4634f;
+  --ember-400: #d23a23;
+  --ember-500: #d30000;
+  --ember-600: #b00b06;
+  --canopy-300: #66c08c;
+  --canopy-400: #3ba669;
+  --canopy-500: #2f8f57;
+  --canopy-600: #237445;
+  --lapis-300: #7ba6d3;
+  --lapis-400: #5486bd;
+  --lapis-500: #3f6ca6;
+  --lapis-600: #315685;
+
+  /* ---- Stone: warm-tinted dark neutrals (workshop chrome) ---- */
+  --stone-950: #100f12;
+  --stone-900: #16151a;
+  --stone-850: #1c1b21;
+  --stone-800: #232128;
+  --stone-700: #2d2b34;
+  --stone-600: #3a3742;
+  --stone-500: #4a4753;
+  --stone-400: #6a6675;
+  --stone-300: #8e8a99;
+  --stone-200: #b6b2c0;
+  --stone-100: #d8d5df;
+  --stone-50:  #efedf3;
+
+  /* ---- Parchment: aged-paper light surfaces ---- */
+  --parchment-floor: #fff7df;
+  --parchment-50:    #f8efd6;
+  --parchment-100:   #f4e8ce;
+  --parchment-200:   #eadbb7;
+  --parchment-300:   #ddc99a;
+  --parchment-400:   #c8ad77;
+  --ink-line:        #3a3326;
+  --ink-900:         #1b1b1b;
+  --ink-700:         #3d362b;
+  --ink-500:         #6b6151;
+
+  /* ---- Status feedback ---- */
+  --ok-400:     #4d9d6c;
+  --ok-500:     #2f9e5e;
+  --warn-500:   #d98a16;
+  --danger-500: #d3342a;
+  --info-500:   #2f86c7;
+
+  /* ============================================================
+     Semantic aliases — reference these in components, not raw scales
+     ============================================================ */
+
+  --surface-app:      var(--stone-950);
+  --surface-sunken:   var(--stone-900);
+  --surface-panel:    var(--stone-800);
+  --surface-raised:   var(--stone-700);
+  --surface-input:    var(--stone-900);
+  --surface-overlay:  rgba(16, 15, 18, 0.86);
+
+  --text-strong:  var(--stone-50);
+  --text-body:    var(--stone-100);
+  --text-muted:   var(--stone-300);
+  --text-faint:   var(--stone-400);
+  --text-onbrand: #fdf4ea;
+
+  --border-hairline: var(--stone-600);
+  --border-strong:   var(--stone-500);
+  --border-input:    var(--stone-500);
+  --border-focus:    var(--brass-300);
+
+  --action-primary:        var(--hearth-500);
+  --action-primary-hover:  var(--hearth-400);
+  --action-primary-press:  var(--hearth-600);
+  --accent:                var(--brass-300);
+  --accent-ink:            var(--brass-400);
+
+  --doc-surface: var(--parchment-100);
+  --doc-floor:   var(--parchment-floor);
+  --doc-wall:    var(--parchment-200);
+  --doc-ink:     var(--ink-900);
+  --doc-ink-muted: var(--ink-500);
+}
