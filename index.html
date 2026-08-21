@@ -21,6 +21,10 @@
     .stub-file .fence { color: var(--stone-500); font-style: italic; }
     .stub-file .hot { color: var(--brass-300); }
     .stub-file strong { color: var(--text-strong); }
+    @media (max-width: 520px) {
+      /* Wrap instead of sideways-scrolling the file on phones. */
+      .product-window .stub-file { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 11.5px; }
+    }
   </style>
   <link rel="stylesheet" href="site.css">
 </head>
@@ -39,7 +43,7 @@
       </a>
       <div class="site-nav__links">
         <a href="#plan">The plan</a>
-        <a href="#parts">Built on shipped parts</a>
+        <a href="#parts">Shipped parts</a>
         <a href="#meanwhile">Meanwhile</a>
       </div>
       <a class="site-button site-button--primary" href="https://dungeonsonautomatic.com/family.html">The Family</a>
